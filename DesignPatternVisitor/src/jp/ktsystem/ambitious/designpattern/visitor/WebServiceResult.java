@@ -1,0 +1,16 @@
+package jp.ktsystem.ambitious.designpattern.visitor;
+
+public class WebServiceResult {
+
+	private boolean success;
+
+	//
+
+	public boolean isSuccess() {
+		return success;
+	}
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
+
+}
